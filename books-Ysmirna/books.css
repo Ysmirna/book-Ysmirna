@@ -15,10 +15,10 @@
 
 }
 *{
-    color: var(--cor-neutra-clara);
+    color:antiquewhite;
 }
 a{
-    color: var(--cor-secundaria-escura);
+    color: var(--cor-neutra-escura);
     text-decoration: underline;
 }
 body{

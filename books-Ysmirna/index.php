@@ -110,7 +110,7 @@
         <section>
             <article>
                 <div>
-                    <img src="img/book.jfif" alt="Foto do livro">
+                    <img src="img/livro.png" alt="Foto do livro">
                 </div>
                 <div class="livro-dados">
                     <h3>Livro: <span>A Redoma de Vidro</span></h3>
