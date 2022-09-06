@@ -107,29 +107,6 @@
             endforeach;
             ?>
         </div>
-        <section>
-            <article>
-                <div>
-                    <img src="img/livro.png" alt="Foto do livro">
-                </div>
-                <div class="livro-dados">
-                    <h3>Livro: <span>A Redoma de Vidro</span></h3>
-                    <h3>Páginas: <span>275</span></h3>
-                    <h3>Autor/a/as/es: <span>Sylvia Plath</span></h3>
-                </div>
-                <div>
-                    <div class="marcador">
-                        <span class="material-icons">book</span>
-                        <span class="contador">12</span>
-                    </div>
-                    <div class="marcador">
-                        <span class="material-icons">favorite</span>
-                        <span class="contador">12</span>
-                    </div>
-                </div>
-            </article>
-        </section>
     </main>
-    
 </body>
 </html>
