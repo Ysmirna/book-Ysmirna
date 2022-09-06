@@ -1,0 +1,112 @@
+:root{
+    --cor-primaria: #f5b947;
+    --cor-primaria-clara: #ffc963;
+    --cor-primaria-escura: #a87920;
+
+    --cor-secundaria-clara: #4793f5;
+    --cor-secundaria-escura: #0f53a8;
+
+    --cor-neutra-clara: #4793f5;
+    --cor-neutra-escura: #333344;
+
+    --tamanho: 16px;
+    --tamanho-pequeno: 8px;
+    --tamanho-grande: 32px;
+
+}
+*{
+    color: var(--cor-neutra-clara);
+}
+a{
+    color: var(--cor-secundaria-escura);
+    text-decoration: underline;
+}
+body{
+    background-color: var(--cor-primaria-clara);
+}
+header{
+    background-color: var(--cor-primaria);
+    overflow: auto;
+    margin-bottom: var(--tamanho-grande);
+    text-align: center;
+}
+h1{
+    font-size: 120px;
+    text-align: center;
+    margin-top: 0.6em;
+    display: inline-block;
+}
+header > aside.p-absolute{
+    float: right;
+    margin: var(--tamanho);
+    padding: var(--tamanho-grande);
+    border-radius: var(--tamanho-pequeno);
+    background-color: var(--cor-principal-escura);
+}
+header > aside.p-absolute .form-group{
+    width: 250px;
+}
+aside{
+    background-color: var(--cor-primaria-escura);
+    float: right;
+    margin: var(--tamanho-pequeno);
+    border-radius: var(--tamanho-pequeno);
+    padding: var(--tamanho);
+}
+section{
+    margin: auto;
+    margin-bottom: var(--tamanho);
+    background-color: var(--cor-secundaria-clara);
+    width: 960px;
+    border-radius: var(--tamanho-pequeno);
+    line-height: normal;
+}
+section div{
+    padding: var(--tamanho);
+}
+.livro-imagem{
+    width: auto !important;
+}
+.livro-imagem img{
+    width: 130px;
+}
+.livro-contexto > *{
+    font-size: 2em;
+}
+.material-icons{
+    font-size: 3em;
+}
+.livro-marcos{
+    width: 100px !important;
+}
+.livro-marcos > div{
+    position: relative;
+}
+.livro-marcos .round{
+    position: absolute;
+    top: 2.5em;
+    left: 2em;
+    border-radius: 50%;
+    background-color: var(--cor-secundaria-escura);
+    padding: .6em;
+}
+.form-inline div{
+    margin: auto;
+    margin-bottom: var(--tamanho-grande) !important;
+}
+.form-inline .form-control{
+    margin-right: var(--tamanho-grande);
+    width: 500px;
+}
+.p-relative{
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex > *{
+    width: 100%;
+}
+.livro-marcos > * {
+    cursor: pointer;
+}
